@@ -1,0 +1,19 @@
+
+public class nameLoop {
+	
+	int counter = 0;
+	while (counter <= namelength - 1) {
+		tempchar = myname.charAt(counter);
+		if (tempchar == 'a' || tempchar == 'A') {
+		acount += 1;
+		}
+		counter += 1;
+}
+	if (acount == 0 || acount > 1) {
+	System.out.println("The letter 'A' appears " + acount + " times in your name!");
+	} else {
+		System.out.println("The letter 'A' appears " + acount + " time in your name!");
+	}
+	
+
+}
