@@ -1,5 +1,13 @@
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Scanner;
+import org.apache.commons.lang3.*;
+
+
+
+
+
+
 
 public class Calculator {
 
@@ -10,12 +18,29 @@ public class Calculator {
 		String userFormula = scanner1.nextLine();
 		System.out.println("");
 
+		for (int j = 0; j <userFormula.length(); j++ ) {				
+			char curChar = userFormula.charAt(j);
+			if (curChar == '(') {
+				userFormula = parenExtract(j,userFormula);	
+			}
+		
+		}
+		
 		System.out.println("Atom" + "\t" + "Number" + "\t" + "Atomic Mass");
+		
 		String strResult = String.format("%.4f", massCalculator(userFormula));
 		System.out.println("");
 		System.out.println("Molecular Weight: " + strResult);
+		
+		
+		
+		
+		
+		
 
 	}
+	
+	
 
 	public static double massCalculator(String x) {
 
@@ -147,11 +172,7 @@ public class Calculator {
 
 		String tempFormula;
 		StringBuilder sb;
-		String parenthesesFormula = " ";
-		double parenthesesMass;
-		int parenthesesNumber = 1;
-		double massWithoutParantheses;
-		boolean isParentheses = false;
+
 		
 		for (int i = 0; i < molFormula.length() ; i++) {
 
@@ -196,7 +217,11 @@ public class Calculator {
 				} else if (Character.isDigit(nexChar)) {
 					
 					tempFormula = Character.toString(curChar);
+					if (Character.isDigit(doubNexChar)) {
+						molNum = Character.getNumericValue(nexChar) * 10 + Character.getNumericValue(doubNexChar);
+					} else {
 					molNum = Character.getNumericValue(nexChar);
+					}
 					if (hmap.get(tempFormula) != null) {
 						
 						System.out.println(tempFormula + "\t" + molNum + "\t" + hmap.get(tempFormula));
@@ -210,24 +235,123 @@ public class Calculator {
 						molWeight += (hmap.get(tempFormula) * molNum);
 					}
 				}
-			} else if (curChar == '(') {
-				isParentheses = true;
-				parenthesesNumber = 1;
-				parenthesesFormula = molFormula.substring(molFormula.indexOf("(")+1,molFormula.indexOf(")"));
-				i += parenthesesFormula.length();
-				if (molFormula.length() != molFormula.indexOf(")") + 1) {
-					parenthesesNumber = molFormula.indexOf(")") + 1;
-					parenthesesNumber = Character.getNumericValue(molFormula.charAt(molFormula.indexOf(")") + 1));
-				}		
+			} 
+		}
+		
+		
+		return molWeight;
+	}
+	
+	public static String parenExtract(int x, String y) {
+		int nestedParenCount = 0;
+		String nexChar = "";
+		String doubleNexChar = "";
+		String newNum = "";
+		int multiplyParen;
+		for (int k = x + 1; k < y.length(); k++) {
+			if (k == y.length() - 3) {
+				nexChar = "" + y.charAt(k+1);
+				doubleNexChar = "";
+			} else if (k <= y.length() - 4) {
+				nexChar = "" +y.charAt(k+1);
+				doubleNexChar = "" + y.charAt(k+2);
+			} else {
+				nexChar = "";
+				doubleNexChar = "";
+			}
+				
+			
+			if (y.charAt(k) == '(') {
+				nestedParenCount++;
+			} else if (nestedParenCount != 0 && y.charAt(k) == ')') {
+				nestedParenCount--;				
+			} else if (nestedParenCount == 0 && y.charAt(k) == ')') {
+				String parenForm = y.substring(x+1, k);
+				String toRemove = y.substring(x,k+1);
+					if (nexChar != "" && Character.isDigit(nexChar.charAt(0))) {
+						newNum+= nexChar;
+						toRemove = y.substring(x,k+2);
+						if (doubleNexChar != "" && Character.isDigit(doubleNexChar.charAt(0))) {
+							newNum+= doubleNexChar;
+							toRemove = y.substring(x,k+3);
+						}
+						multiplyParen = Integer.valueOf(newNum);
+						parenForm = addOnes(parenForm);
+						parenForm = multiplyInParen(multiplyParen,parenForm);
+					}
+				y = StringUtils.remove(y, toRemove);
+				y += parenForm;
+				break;
+			}
+		
+		}
+		return y;
+	}
+	
+	public static String addOnes(String y) {
+		String nexChar = "";
+		String doubleNexChar = "";
+		int newNumber = 1;
+		for (int m = 0; m < y.length();m++) {
+			if (m == y.length() - 2) {
+				nexChar = "" + y.charAt(m+1);
+				doubleNexChar = "";
+			} else if (m <= y.length() - 3) {
+				nexChar = "" +y.charAt(m+1);
+				doubleNexChar = "" + y.charAt(m+2);
+			} else {
+				nexChar = "";
+				doubleNexChar = "";
+			}
+			
+			if (Character.isUpperCase(y.charAt(m))&& Character.isDigit(nexChar.charAt(0)) ) {
+				m++;
+			} else if (Character.isUpperCase(y.charAt(m))&& Character.isLowerCase(nexChar.charAt(0)) && Character.isDigit(doubleNexChar.charAt(0))) {
+				m+=2;
+			} else if (Character.isUpperCase(y.charAt(m))&& Character.isLowerCase(nexChar.charAt(0)) && ((m + 2 == y.length()) || Character.isUpperCase(doubleNexChar.charAt(0)))) {
+				y = y.substring(0, m + 1) + newNumber + y.substring(m+2);
+				m+=2;
+			} else if (Character.isUpperCase(y.charAt(m))) {
+				y = y.substring(0, m+1) + newNumber + y.substring(m+1);
+				m++;
 			}
 		}
 		
-		if (isParentheses) {
-			massWithoutParantheses = molWeight;
-			parenthesesMass = massCalculator(parenthesesFormula);
-			molWeight = massWithoutParantheses + (parenthesesMass * parenthesesNumber);
+		return y;
+	}
+	
+	public static String multiplyInParen(int x, String y) {
+		
+		int openParenCount = 0;
+		for (int l = 0; l < y.length();l++) {
+			int newNumber = 1;
+			if (y.charAt(l) == '(') {
+				openParenCount++;				
+			} else if (y.charAt(l) == ')') {
+				openParenCount--;
+			} else {
+				if (openParenCount == 0 && Character.isDigit(y.charAt(l))) {
+					if (l < y.length() - 1 && Character.isDigit(y.charAt(l+1))) {
+						newNumber = Character.getNumericValue(y.charAt(l)) * 10 + Character.getNumericValue(y.charAt(l+1));						
+					} else {
+						newNumber = Character.getNumericValue(y.charAt(l));
+					}
+					newNumber = x * newNumber;
+					if (newNumber > 10) {
+						y = y.substring(0, l) + newNumber + (l == y.length() - 1?"": y.substring(l+2));
+					} else {
+						y = y.substring(0, l) + newNumber + (l == y.length() - 1?"": y.substring(l+1));
+					}
+					if (newNumber >= 10) {
+						l++;
+					} 
+					if (newNumber >= 100) {
+						l+=2;
+					}
+				}
+			}
 		}
-		return molWeight;
+		return y;
 	}
 
 }
