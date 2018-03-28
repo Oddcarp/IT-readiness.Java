@@ -15,7 +15,7 @@
 	<section name="org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart">
 		<item value="2" key="layout"/>
 		<item value="true" key="group_libraries"/>
-		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;packageExplorer group_libraries=&quot;1&quot; layout=&quot;2&quot; linkWithEditor=&quot;0&quot; rootMode=&quot;1&quot; workingSetName=&quot;Aggregate for window 1517860646624&quot;&gt;&#x0D;&#x0A;&lt;customFilters userDefinedPatternsEnabled=&quot;false&quot;&gt;&#x0D;&#x0A;&lt;xmlDefinedFilters&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.StaticsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.buildship.ui.packageexplorer.filter.gradle.buildfolder&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.mylyn.java.ui.MembersFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonSharedProjectsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.EmptyInnerPackageFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.m2e.MavenModuleFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.buildship.ui.packageexplorer.filter.gradle.subProject&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ClosedProjectsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;_patternFilterId_*.ajsym&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.EmptyLibraryContainerFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.PackageDeclarationFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.ajdt.ui.editor.outline.AdviceFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.LocalTypesFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.FieldsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.ajdt.ui.editor.outline.PointcutFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonJavaProjectsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer_patternFilterId_.*&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.SyntheticMembersFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ContainedLibraryFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.HideInnerClassFilesFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.ajdt.ui.editor.outline.DeclarationFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.DeprecatedMembersFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.ajdt.javamodel.CompilationUnitFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ImportDeclarationFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonJavaElementFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.LibraryFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.ajdt.ui.editor.outline.IntroductionFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.CuAndClassFileFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.EmptyPackageFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonPublicFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;/xmlDefinedFilters&gt;&#x0D;&#x0A;&lt;/customFilters&gt;&#x0D;&#x0A;&lt;/packageExplorer&gt;" key="memento"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;packageExplorer group_libraries=&quot;1&quot; layout=&quot;2&quot; linkWithEditor=&quot;0&quot; rootMode=&quot;1&quot; workingSetName=&quot;Aggregate for window 1517860646624&quot;&gt;&#x0D;&#x0A;&lt;customFilters userDefinedPatternsEnabled=&quot;false&quot;&gt;&#x0D;&#x0A;&lt;xmlDefinedFilters&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.StaticsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.buildship.ui.packageexplorer.filter.gradle.buildfolder&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.mylyn.java.ui.MembersFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonJavaProjectsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer_patternFilterId_.*&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonSharedProjectsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.SyntheticMembersFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ContainedLibraryFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.HideInnerClassFilesFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.EmptyInnerPackageFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.m2e.MavenModuleFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.buildship.ui.packageexplorer.filter.gradle.subProject&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ClosedProjectsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.DeprecatedMembersFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.EmptyLibraryContainerFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.PackageDeclarationFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ImportDeclarationFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonJavaElementFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.LibraryFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.CuAndClassFileFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.EmptyPackageFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonPublicFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.LocalTypesFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.FieldsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;/xmlDefinedFilters&gt;&#x0D;&#x0A;&lt;/customFilters&gt;&#x0D;&#x0A;&lt;/packageExplorer&gt;" key="memento"/>
 		<item value="1" key="rootMode"/>
 		<item value="false" key="linkWithEditor"/>
 	</section>
@@ -60,7 +60,7 @@
 	<section name="javadoc">
 		<item value="public" key="access"/>
 		<item value="false" key="noindex"/>
-		<item value="C:\Users\Mkell\Documents\GitHub\IT-readiness.Java\JavaTruthTable\javadoc.xml" key="antpath"/>
+		<item value="C:\Users\jisamk1\learning\IT-readiness.Java\FactoryDesign314\javadoc.xml" key="antpath"/>
 		<item value="false" key="nodeprecatedlist"/>
 		<item value="true" key="use"/>
 		<item value="true" key="author"/>
@@ -74,9 +74,104 @@
 		<item value="true" key="splitindex"/>
 		<item value="true" key="fromStandard"/>
 		<item value="false" key="notree"/>
-		<item value="C:\Users\Mkell\Documents\GitHub\IT-readiness.Java\JavaTruthTable\doc" key="destdir"/>
+		<item value="C:\Users\jisamk1\learning\IT-readiness.Java\FactoryDesign314\doc" key="destdir"/>
 		<item value="false" key="openinbrowser"/>
 		<section name="projects">
+			<section name="219JavaInClassSwitch">
+				<item value="C:\Users\jisamk1\learning\IT-readiness.Java\219JavaInClassSwitch\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\jisamk1\learning\IT-readiness.Java\219JavaInClassSwitch\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="enumTest">
+				<item value="C:\Users\jisamk1\learning\IT-readiness.Java\enumTest\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\jisamk1\learning\IT-readiness.Java\enumTest\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="molTestingArray">
+				<item value="C:\Users\jisamk1\learning\IT-readiness.Java\molTestingArray\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\jisamk1\learning\IT-readiness.Java\molTestingArray\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="PrototypePattern">
+				<item value="C:\Users\jisamk1\learning\IT-readiness.Java\PrototypePattern\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\jisamk1\learning\IT-readiness.Java\PrototypePattern\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="SingletonPattern">
+				<item value="C:\Users\jisamk1\learning\IT-readiness.Java\SingletonPattern\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\jisamk1\learning\IT-readiness.Java\SingletonPattern\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="ExceptionTest">
+				<item value="C:\Users\jisamk1\learning\IT-readiness.Java\ExceptionTest\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\jisamk1\learning\IT-readiness.Java\ExceptionTest\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="AbstractFactoryPattern">
+				<item value="C:\Users\jisamk1\learning\IT-readiness.Java\AbstractFactoryPattern\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\jisamk1\learning\IT-readiness.Java\AbstractFactoryPattern\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="MM_Caclulator">
+				<item value="C:\Users\jisamk1\learning\IT-readiness.Java\MM_Caclulator\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\jisamk1\learning\IT-readiness.Java\MM_Caclulator\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="JavaConstantsExcercise">
+				<item value="C:\Users\jisamk1\learning\IT-readiness.Java\JavaConstantsExcercise\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\jisamk1\learning\IT-readiness.Java\JavaConstantsExcercise\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Java37">
+				<item value="C:\Users\jisamk1\learning\IT-readiness.Java\Java37\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\jisamk1\learning\IT-readiness.Java\Java37\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Java228HW">
+				<item value="C:\Users\jisamk1\learning\IT-readiness.Java\Java228HW\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\jisamk1\learning\IT-readiness.Java\Java228HW\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="FactoryDesign314">
+				<item value="C:\Users\jisamk1\learning\IT-readiness.Java\FactoryDesign314\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\jisamk1\learning\IT-readiness.Java\FactoryDesign314\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Java226HW">
+				<item value="C:\Users\jisamk1\learning\IT-readiness.Java\Java226HW\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\jisamk1\learning\IT-readiness.Java\Java226HW\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Java33">
+				<item value="C:\Users\jisamk1\learning\IT-readiness.Java\Java33\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\jisamk1\learning\IT-readiness.Java\Java33\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="212_Homework">
+				<item value="C:\Users\jisamk1\learning\IT-readiness.Java\212_Homework\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\jisamk1\learning\IT-readiness.Java\212_Homework\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="BuilderPattern">
+				<item value="C:\Users\jisamk1\learning\IT-readiness.Java\BuilderPattern\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\jisamk1\learning\IT-readiness.Java\BuilderPattern\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="JavaTruthTable">
+				<item value="C:\Users\jisamk1\learning\IT-readiness.Java\JavaTruthTable\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\jisamk1\learning\IT-readiness.Java\JavaTruthTable\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Hellow World">
+				<item value="C:\Users\jisamk1\learning\IT-readiness.Java\Hellow World\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\jisamk1\learning\IT-readiness.Java\Hellow World\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="FactoryProject2">
+				<item value="C:\Users\jisamk1\learning\IT-readiness.Java\FactoryProject2\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\jisamk1\learning\IT-readiness.Java\FactoryProject2\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
 		</section>
 	</section>
 	<section name="SourceActionDialog.methods">
@@ -109,11 +204,11 @@
 	<section name="quick_assist_proposal_size">
 	</section>
 	<section name="JavadocWizardDialog">
-		<item value="818" key="DIALOG_WIDTH"/>
-		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|5|0|Segoe UI" key="DIALOG_FONT_NAME"/>
-		<item value="698" key="DIALOG_HEIGHT"/>
-		<item value="400" key="DIALOG_X_ORIGIN"/>
-		<item value="439" key="DIALOG_Y_ORIGIN"/>
+		<item value="616" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="567" key="DIALOG_HEIGHT"/>
+		<item value="456" key="DIALOG_X_ORIGIN"/>
+		<item value="398" key="DIALOG_Y_ORIGIN"/>
 	</section>
 	<section name="BuildPathsPropertyPage">
 		<item value="2" key="pageIndex"/>
