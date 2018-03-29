@@ -1,5 +1,5 @@
 
-public class SalespersonEmployee extends Employee{
+public class SalespersonEmployee extends Employee implements Person {
 	
 	
 	protected int region = 0;

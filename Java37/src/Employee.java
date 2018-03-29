@@ -1,6 +1,6 @@
+import java.util.ArrayList;
 
-
-public class Employee {
+public class Employee implements Person {
 	
 	//Declare class-level variables
 	protected String firstName;
@@ -10,19 +10,43 @@ public class Employee {
 	protected String DOB;
 	protected String ID;
 	protected double salary = 0.00;
+	protected ArrayList<Address> addressList = new ArrayList<Address>();
 	
 
 	
 	public Employee (String firstName, char middleInitial, String lastName, String SSN, String DOB, String ID, double salary) {
 		this.setFirstName(firstName);
 		this.setMiddleInitial(middleInitial);
-		this.lastName = lastName;
-		this.SSN = SSN;
-		this.DOB = DOB;
-		this.ID = ID;
-		this.salary = salary;
+		this.setLastName(lastName);
+		this.setSSN(SSN);
+		this.setDOB(DOB);
+		this.setID(ID);
+		this.setSalary(salary);
 	}
 	
+
+
+	/**
+	 * @return the addressList
+	 */
+	public ArrayList<Address> getAddressList() {
+		return addressList;
+	}
+
+
+
+	/**
+	 * @param addressList the addressList to set
+	 */
+	public void setAddress(String addressType, String streetLine1, String streetLine2, String city, String stateCode, String countryCode, String postalCode) {
+
+		addressList.add(new Address( addressType,  streetLine1,  streetLine2,  city,  stateCode,  countryCode,  postalCode));
+		
+	
+	}
+
+
+
 	/**
 	 * @return the lastName
 	 */
@@ -95,8 +119,7 @@ public class Employee {
 
 	@Override
 	public String toString() {
-//		return "Employee \nfirstName: " + firstName + "\nmiddleInitial: " + middleInitial + "\nlastName: " + lastName
-//				+ "\nSSN: " + SSN + "\nDOB: " + DOB + "\nID: " + ID + "\nsalary: " + salary;
+//	
 		String tempString = String.format("Employee: %s %s %s\nSSN: %s\nDOB: %s\nID: %s\nSalary: %s", getFirstName(), getMiddleInitial(), lastName, SSN, DOB, ID, salary);
 		return tempString;
 	}
@@ -137,6 +160,14 @@ public class Employee {
 	public void setMiddleInitial(char middleInitial) {
 		this.middleInitial = middleInitial;
 	}
+
+
+
+
+
+
+
+
 }
 
 
