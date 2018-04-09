@@ -15,6 +15,8 @@ public class Main {
 		
 		SalespersonEmployee salespersonEmployee = new SalespersonEmployee("McKenzie", 'R', "Keller", "123456789", "03/04/1991", "73", 1000000, 5,false);
 		System.out.println(salespersonEmployee.toString());
+		
+		System.out.println(Math.E);
 	}
 
 

@@ -1,0 +1,2 @@
+SELECT java_class.employee.*, java_class.salesperson_employee.*, java_class.region_code.* FROM java_class.employee, java_class.salesperson_employee, java_class.region_code
+WHERE java_class.employee.employee_id = java_class.salesperson_employee.employee_id AND java_class.salesperson_employee.region_code_id = java_class.region_code.region_code_id;
