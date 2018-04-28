@@ -1,0 +1,1 @@
+Select java_class.ucase_and_trim(employee.first_name) as first_name_ucase_and_trim from java_class.employee
