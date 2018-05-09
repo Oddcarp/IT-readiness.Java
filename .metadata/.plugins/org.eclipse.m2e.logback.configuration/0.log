@@ -32,3 +32,21 @@
 2018-04-18 17:19:10,884 [Worker-10] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
 2018-04-18 17:57:51,590 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
 2018-04-23 18:20:40,460 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2018-05-09 15:15:00,354 [Worker-9] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2018-05-09 15:17:25,659 [Worker-15] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:radinglist:0.0.1-SNAPSHOT @ C:\Users\Mkell\Documents\GitHub\IT-readiness.Java\radinglist\pom.xml.
+2018-05-09 15:17:25,794 [Worker-11] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:radinglist:0.0.1-SNAPSHOT @ C:\Users\Mkell\Documents\GitHub\IT-readiness.Java\radinglist\pom.xml.
+2018-05-09 15:17:30,309 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.something.maven:Who_knows:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+2018-05-09 15:17:30,309 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.something.maven:Who_knows:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+2018-05-09 15:17:39,565 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-09 15:17:39,591 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-05-09 15:17:39,642 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-05-09 15:17:39,648 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-09 15:17:39,648 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mkell\Documents\GitHub\IT-readiness.Java\radinglist\src\test\resources
+2018-05-09 15:17:41,502 [Worker-20] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:radinglist:0.0.1-SNAPSHOT @ C:\Users\Mkell\Documents\GitHub\IT-readiness.Java\radinglist\pom.xml.
+2018-05-09 15:17:41,858 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.something.maven:Who_knows:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+2018-05-09 15:17:43,440 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.something.maven:Who_knows:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+2018-05-09 15:17:43,789 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-09 15:17:43,794 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-05-09 15:17:43,794 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-05-09 15:17:43,805 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-09 15:17:43,806 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mkell\Documents\GitHub\IT-readiness.Java\radinglist\src\test\resources
