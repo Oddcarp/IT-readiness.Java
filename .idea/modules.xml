@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/212_Homework/212_Homework.iml" filepath="$PROJECT_DIR$/212_Homework/212_Homework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Design_Pattern_demos/AbstractFactoryPattern/AbstractFactoryPattern.iml" filepath="$PROJECT_DIR$/Design_Pattern_demos/AbstractFactoryPattern/AbstractFactoryPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Design_Pattern_demos/AdapterPattern/AdapterPattern.iml" filepath="$PROJECT_DIR$/Design_Pattern_demos/AdapterPattern/AdapterPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Design_Pattern_demos/BridgePattern/BridgePattern.iml" filepath="$PROJECT_DIR$/Design_Pattern_demos/BridgePattern/BridgePattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Design_Pattern_demos/BuilderPattern/BuilderPattern.iml" filepath="$PROJECT_DIR$/Design_Pattern_demos/BuilderPattern/BuilderPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Design_Pattern_demos/ChainofResponsibilityPattern/ChainofResponsibilityPattern.iml" filepath="$PROJECT_DIR$/Design_Pattern_demos/ChainofResponsibilityPattern/ChainofResponsibilityPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Design_Pattern_demos/CommandPattern/CommandPattern.iml" filepath="$PROJECT_DIR$/Design_Pattern_demos/CommandPattern/CommandPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Design_Pattern_demos/CompositePattern/CompositePattern.iml" filepath="$PROJECT_DIR$/Design_Pattern_demos/CompositePattern/CompositePattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DatabaseConnection/DatabaseConnection.iml" filepath="$PROJECT_DIR$/DatabaseConnection/DatabaseConnection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Design_Pattern_demos/DecoratorPattern/DecoratorPattern.iml" filepath="$PROJECT_DIR$/Design_Pattern_demos/DecoratorPattern/DecoratorPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExceptionTest/ExceptionTest.iml" filepath="$PROJECT_DIR$/ExceptionTest/ExceptionTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Design_Pattern_demos/FacadePattern/FacadePattern.iml" filepath="$PROJECT_DIR$/Design_Pattern_demos/FacadePattern/FacadePattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FactoryDesign314/FactoryDesign314.iml" filepath="$PROJECT_DIR$/FactoryDesign314/FactoryDesign314.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FactoryProject2/FactoryProject2.iml" filepath="$PROJECT_DIR$/FactoryProject2/FactoryProject2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FilterPattern/FilterPattern.iml" filepath="$PROJECT_DIR$/FilterPattern/FilterPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Design_Pattern_demos/FlyweightPattern/FlyweightPattern.iml" filepath="$PROJECT_DIR$/Design_Pattern_demos/FlyweightPattern/FlyweightPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Hellow World/Hellow World.iml" filepath="$PROJECT_DIR$/Hellow World/Hellow World.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IT-readiness.Java.iml" filepath="$PROJECT_DIR$/IT-readiness.Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Design_Pattern_demos/InterpreterPattern/InterpreterPattern.iml" filepath="$PROJECT_DIR$/Design_Pattern_demos/InterpreterPattern/InterpreterPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Design_Pattern_demos/IteratorPattern/IteratorPattern.iml" filepath="$PROJECT_DIR$/Design_Pattern_demos/IteratorPattern/IteratorPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java226HW/Java226HW.iml" filepath="$PROJECT_DIR$/Java226HW/Java226HW.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java228HW/Java228HW.iml" filepath="$PROJECT_DIR$/Java228HW/Java228HW.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java33/Java33.iml" filepath="$PROJECT_DIR$/Java33/Java33.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java37/Java37.iml" filepath="$PROJECT_DIR$/Java37/Java37.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaConstantsExcercise/JavaConstantsExcercise.iml" filepath="$PROJECT_DIR$/JavaConstantsExcercise/JavaConstantsExcercise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaTruthTable/JavaTruthTable.iml" filepath="$PROJECT_DIR$/JavaTruthTable/JavaTruthTable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MM_Caclulator/MM_Caclulator.iml" filepath="$PROJECT_DIR$/MM_Caclulator/MM_Caclulator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MidTermCalculator/MidTermCalculator.iml" filepath="$PROJECT_DIR$/MidTermCalculator/MidTermCalculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Design_Pattern_demos/PrototypePattern/PrototypePattern.iml" filepath="$PROJECT_DIR$/Design_Pattern_demos/PrototypePattern/PrototypePattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Design_Pattern_demos/ProxyPattern/ProxyPattern.iml" filepath="$PROJECT_DIR$/Design_Pattern_demos/ProxyPattern/ProxyPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Quiz418/Quiz418.iml" filepath="$PROJECT_DIR$/Quiz418/Quiz418.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Design_Pattern_demos/SingletonPattern/SingletonPattern.iml" filepath="$PROJECT_DIR$/Design_Pattern_demos/SingletonPattern/SingletonPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring_HelloWorld/src/main/main.iml" filepath="$PROJECT_DIR$/Spring_HelloWorld/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/molTestingArray/molTestingArray.iml" filepath="$PROJECT_DIR$/molTestingArray/molTestingArray.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring_HelloWorld/src/test/test.iml" filepath="$PROJECT_DIR$/Spring_HelloWorld/src/test/test.iml" />
+    </modules>
+  </component>
+</project>
